@@ -16,7 +16,7 @@ exclude = ["docs/", "input/", "output/"]
 # default = ["netcdf", "png"]
 
 [dependencies]
-# amethyst = "0.15.*"
+amethyst = { version="0.15.*", features=["metal"] }
 
 [profile.dev]
 # Development profile: "cargo build".
